@@ -5,13 +5,13 @@
 
     <StackLayout>
         <StackLayout>
-            <Button x:Name="Item1" Text="DynamicDemo"></Button>
-            <Button x:Name="Item2" Text="ExplicitDemo"></Button>
-            <Button x:Name="Item3" Text="ExplicitControl"></Button>
-            <Button x:Name="Item4" Text="ImplicitDemo"></Button>
-            <Button x:Name="Item5" Text="ImplicitControlDemo"></Button>
-            <Button x:Name="Item6" Text="InheiteDemo"></Button>
-            <Button x:Name="Item7" Text="GlobalDemo"></Button>
+            <Button x:Name="Item1" Text="DynamicDemo" BackgroundColor="Green" TextColor="White"></Button>
+            <Button x:Name="Item2" Text="ExplicitDemo" BackgroundColor="Red" TextColor="White"></Button>
+            <Button x:Name="Item3" Text="ExplicitControl" BackgroundColor="Salmon" TextColor="White"></Button>
+            <Button x:Name="Item4" Text="ImplicitDemo" BackgroundColor="Navy" TextColor="White"></Button>
+            <Button x:Name="Item5" Text="ImplicitControlDemo" BackgroundColor="Teal" TextColor="White"></Button>
+            <Button x:Name="Item6" Text="InheiteDemo" BackgroundColor="YellowGreen" TextColor="White"></Button>
+            <Button x:Name="Item7" Text="GlobalDemo" BackgroundColor="RoyalBlue" TextColor="White"></Button>
         </StackLayout>
     </StackLayout>
 
