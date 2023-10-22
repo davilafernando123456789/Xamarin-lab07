@@ -12,6 +12,7 @@
             <Button x:Name="Item5" Text="ImplicitControlDemo" BackgroundColor="Teal" TextColor="White"></Button>
             <Button x:Name="Item6" Text="InheiteDemo" BackgroundColor="YellowGreen" TextColor="White"></Button>
             <Button x:Name="Item7" Text="GlobalDemo" BackgroundColor="RoyalBlue" TextColor="White"></Button>
+            <Button x:Name="Item8" Text="CssDemo" BackgroundColor="CadetBlue" TextColor="White"></Button>
         </StackLayout>
     </StackLayout>
 

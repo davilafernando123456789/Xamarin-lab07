@@ -41,6 +41,10 @@ namespace Ejercicio07
             {
                 await Navigation.PushAsync(new GlobalDemo());
             };
+            Item8.Clicked += async (sender, e) =>
+            {
+                await Navigation.PushAsync(new CssDemo());
+            };
         }
     }
 }

@@ -1,0 +1,44 @@
+﻿
+.artist-name {
+    font-size: 15;
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.song-title {
+    font-size: 14;
+    color: #555;
+    text-align: center;
+    vertical-align: middle; 
+}
+
+.song-list {
+    background-color: deepskyblue;
+    padding: 10;
+    border: 1px solid #ddd;
+    border-radius: 10;
+}
+
+.custom-container {
+    height: 200px; 
+    background-color: lawngreen; 
+    position: relative;
+    z-index: 1; 
+}
+.music-title {
+    font-size: 20;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    background-color: aqua;
+}
+
+.favorites-icon {
+    width: 30;
+    height: 30;
+    color: red;
+    background-color: yellow;
+
+}

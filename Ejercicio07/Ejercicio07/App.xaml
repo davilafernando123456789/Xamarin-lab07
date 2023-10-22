@@ -4,7 +4,7 @@
              x:Class="Ejercicio07.App">
     <Application.Resources>
         <ResourceDictionary>
-            <Style x:Key="buttonStyle" TargetType="Button">
+            <!--<Style x:Key="buttonStyle" TargetType="Button">
                 <Setter Property="HorizontalOptions" Value="Center" />
                 <Setter Property="VerticalOptions" Value="CenterAndExpand" />
                 <Setter Property="BorderColor" Value="Lime" />
@@ -12,7 +12,7 @@
                 <Setter Property="BorderWidth" Value="5" />
                 <Setter Property="WidthRequest" Value="200" />
                 <Setter Property="TextColor" Value="Teal" />
-            </Style>
+            </Style>-->
         </ResourceDictionary>
     </Application.Resources>
 </Application>

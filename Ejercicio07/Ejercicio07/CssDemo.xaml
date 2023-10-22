@@ -1,0 +1,25 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio07.CssDemo">
+    <ContentPage.Resources>
+        <StyleSheet Source="styles/stylesDemo.css"/>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+            <Label Text="Lista de Música" StyleClass="music-title" />
+            <Image Source="NewFolder/image.png" HeightRequest="30" WidthRequest="30" StyleClass="favorites-icon" />
+            <ListView x:Name="songListView" StyleClass="song-list">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout StyleClass="song-container custom-container">
+                                <Label Text="{Binding Artist}" StyleClass="artist-name" />
+                                <Label Text="{Binding Title}" StyleClass="song-title" />
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
